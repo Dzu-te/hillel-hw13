@@ -1,14 +1,14 @@
 @use "reset";
 
-.body{
+.body {
   height: 100vh;
 }
 
-.container{
+.container {
   height: 100%;
 }
 
-.figures{
+.figures {
   height: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -16,22 +16,53 @@
   align-items: center;
 }
 
-.figure{
+.figure {
   width: 300px;
   height: 300px;
   margin: 20px;
   border: 1px solid black;
 }
 
-.my-square:hover{
+.my-square{
+  fill: rgb(42, 223, 21);
+    stroke-width: 5;
+    stroke: rgb(214, 19, 19);
+}
+
+.my-square:hover {
   fill: rgb(214, 19, 19);
   stroke: rgb(42, 223, 21);
 }
 
+.my-rectangle {
+  fill: rgb(255, 0, 0);
+  stroke-width: 5;
+  stroke: rgb(85, 8, 239);
+}
 
+.my-rectangle:hover {
+  fill: rgb(85, 8, 239);
+  stroke: rgb(255, 0, 0);
+}
 
+.my-circle {
+  fill: rgb(0, 0, 255);
+  stroke-width: 5;
+  stroke: rgb(0, 0, 0);
+}
+
+.my-circle:hover {
+  fill: rgb(0, 0, 0);
+  stroke: rgb(0, 0, 255);
+}
+
+.my-ellipse {
+  fill: rgb(244, 13, 159);
+  stroke-width: 5;
+  stroke: rgb(238, 238, 10);
+}
 
 .my-ellipse:hover {
-  fill: rgb(10, 238, 10);
-  stroke: rgb(255, 0, 0);  
+  fill: rgb(238, 238, 10);
+  stroke: rgb(244, 13, 159);
 }
