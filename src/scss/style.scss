@@ -4,11 +4,16 @@
   height: 100vh;
 }
 
+.container{
+  height: 100%;
+}
+
 .figures{
+  height: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  
+  align-items: center;
 }
 
 .figure{
@@ -18,3 +23,15 @@
   border: 1px solid black;
 }
 
+.my-square:hover{
+  fill: rgb(214, 19, 19);
+  stroke: rgb(42, 223, 21);
+}
+
+
+
+
+.my-ellipse:hover {
+  fill: rgb(10, 238, 10);
+  stroke: rgb(255, 0, 0);  
+}
