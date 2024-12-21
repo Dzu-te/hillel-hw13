@@ -302,10 +302,10 @@ table{
   stroke:rgb(0, 0, 0);
   -webkit-animation-name:circle;
           animation-name:circle;
-  -webkit-animation-duration:2s;
-          animation-duration:2s;
-  -webkit-animation-timing-function:linear;
-          animation-timing-function:linear;
+  -webkit-animation-duration:3s;
+          animation-duration:3s;
+  -webkit-animation-timing-function:ease-in-out;
+          animation-timing-function:ease-in-out;
   -webkit-animation-delay:1s;
           animation-delay:1s;
   -webkit-animation-iteration-count:infinite;
@@ -314,55 +314,39 @@ table{
 
 @-webkit-keyframes circle{
   0%{
-    -webkit-transform:translateY(70px);
-            transform:translateY(70px);
+    -webkit-transform:translateY(0);
+            transform:translateY(0);
   }
-  20%{
-    -webkit-transform:translateY(70px) translateX(70px);
-            transform:translateY(70px) translateX(70px);
+  25%{
+    -webkit-transform:translateY(135px);
+            transform:translateY(135px);
   }
-  40%{
-    -webkit-transform:translateY(-70px) translateX(70px);
-            transform:translateY(-70px) translateX(70px);
+  50%{
+    -webkit-transform:translateY(135px) translateX(135px);
+            transform:translateY(135px) translateX(135px);
   }
-  60%{
-    -webkit-transform:translateY(-70px) translateX(-70px);
-            transform:translateY(-70px) translateX(-70px);
-  }
-  80%{
-    -webkit-transform:translateY(70px) translateX(-70px);
-            transform:translateY(70px) translateX(-70px);
-  }
-  100%{
-    -webkit-transform:translateY(70px) translateX(70px);
-            transform:translateY(70px) translateX(70px);
+  75%{
+    -webkit-transform:translateY(0) translateX(135px);
+            transform:translateY(0) translateX(135px);
   }
 }
 
 @keyframes circle{
   0%{
-    -webkit-transform:translateY(70px);
-            transform:translateY(70px);
+    -webkit-transform:translateY(0);
+            transform:translateY(0);
   }
-  20%{
-    -webkit-transform:translateY(70px) translateX(70px);
-            transform:translateY(70px) translateX(70px);
+  25%{
+    -webkit-transform:translateY(135px);
+            transform:translateY(135px);
   }
-  40%{
-    -webkit-transform:translateY(-70px) translateX(70px);
-            transform:translateY(-70px) translateX(70px);
+  50%{
+    -webkit-transform:translateY(135px) translateX(135px);
+            transform:translateY(135px) translateX(135px);
   }
-  60%{
-    -webkit-transform:translateY(-70px) translateX(-70px);
-            transform:translateY(-70px) translateX(-70px);
-  }
-  80%{
-    -webkit-transform:translateY(70px) translateX(-70px);
-            transform:translateY(70px) translateX(-70px);
-  }
-  100%{
-    -webkit-transform:translateY(70px) translateX(70px);
-            transform:translateY(70px) translateX(70px);
+  75%{
+    -webkit-transform:translateY(0) translateX(135px);
+            transform:translateY(0) translateX(135px);
   }
 }
 .my-circle:hover{
